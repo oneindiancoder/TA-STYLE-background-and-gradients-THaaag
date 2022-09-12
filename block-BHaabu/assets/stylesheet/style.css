@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Custom Code */
+
+/* General Styles */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/media/pattern-1.jpg");
+  background-size: cover;
+  font-family: "Ms Madi", cursive;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 80%;
+  max-width: 1600px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* All */
+
+/* Typography */
+h1 {
+  font-size: 96px;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: #5bb1ac;
+  font-weight: 900;
+}
+
+.box {
+  font-size: 48px;
+  font-weight: 600;
+  color: #a4ccd1;
+  border-radius: 8px;
+}
+
+/* layout */
+
+header,
+section {
+  margin: 40px 0;
+}
+
+.bg-color .box {
+  height: 400px;
+  flex: 0 1 30%;
+}
+
+.bg-image-box {
+  height: 800px;
+  width: 100%;
+  background: linear-gradient(
+      to top left,
+      rgba(247, 92, 2, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/assets/media/pic-1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.solid-box {
+  background-color: #ff0648;
+}
+
+.lg-box {
+  background: linear-gradient(to left, #fa0547, #2c2b22);
+}
+
+.rg-box {
+  background: radial-gradient(#fa0547, #2c2b22);
+}
