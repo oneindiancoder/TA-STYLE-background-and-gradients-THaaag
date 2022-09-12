@@ -145,6 +145,7 @@ body {
     url("/assets/media/pattern-1.jpg");
   background-size: cover;
   font-family: "Ms Madi", cursive;
+  background-attachment: fixed;
 }
 
 .container {
@@ -198,7 +199,7 @@ section {
 
 .bg-image-box {
   height: 800px;
-
+  width: 100%;
   background: linear-gradient(
       to top left,
       rgba(247, 92, 2, 0.7),
