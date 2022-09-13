@@ -190,6 +190,29 @@ body {
   background-color: antiquewhite;
 }
 
+.dark-mode {
+  font-size: 12px;
+  font-weight: 700;
+  color: #7a82a0;
+}
+.toggle {
+  background: linear-gradient(to right, #4496ca, #3fd090);
+  width: 44px;
+  height: 24px;
+  border-radius: 24px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.toggle-switch {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: #202230;
+}
+
 /* ------------------socials---------------------- */
 
 /* typography */
