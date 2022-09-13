@@ -144,7 +144,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: #fff;
-  background-color: #202230;
+  background-color: #1d2028;
 }
 
 .container {
@@ -211,6 +211,11 @@ body {
   width: 16px;
   border-radius: 50%;
   background-color: #202230;
+}
+
+.dashboard-header {
+  background-color: #202230;
+  padding: 24px 0 180px;
 }
 
 /* ------------------socials---------------------- */
@@ -287,6 +292,7 @@ body {
   padding: 60px;
   border-radius: 4px;
   flex: 0 1 23%;
+  margin-top: -150px;
 }
 
 .social,
@@ -336,10 +342,6 @@ body {
 }
 .yt {
   background-color: #c20429;
-}
-
-.dashboard-header {
-  padding: 24px 0;
 }
 
 .socials {
