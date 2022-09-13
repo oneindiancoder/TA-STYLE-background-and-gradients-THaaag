@@ -313,22 +313,29 @@ body {
   margin-bottom: 16px;
 }
 
+.social {
+  position: relative;
+}
+.border-top {
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 4px 4px 0 0;
+}
+
 .fb {
-  border-top: 4px solid #1790f5;
+  background-color: #1790f5;
 }
 
 .twitter {
-  border-top: 4px solid #21a0f1;
+  background-color: #21a0f1;
 }
 .ig {
-  border-image: linear-gradient(to right, #fec069, #cc5994);
-  /* width: 400px; */
-  border-top: 4px solid transparent;
-  border-image-slice: 1;
-  /* padding: 25px; */
+  background: linear-gradient(to right, #fec069, #cc5994);
 }
 .yt {
-  border-top: 4px solid #c20429;
+  background-color: #c20429;
 }
 
 .dashboard-header {
